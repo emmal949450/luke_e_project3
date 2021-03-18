@@ -1,1 +1,2 @@
-# luke_e_project3
+# Emma Luke Midterm Scaffold 
+
