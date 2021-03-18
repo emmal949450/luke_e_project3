@@ -37,8 +37,10 @@ body {
 
 #logo {
 	padding-top: 20px;
+	padding-bottom: 10px;
 	padding-left: 20px;
 	width: 170px;
+	height: 150px;
 	background-color: #000;
 }
 
