@@ -1,0 +1,192 @@
+@charset "UTF-8" ;
+
+.hidden {
+	display: none;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #333;
+	background-color: #312d2e;
+}
+
+/*---------------------------------------------Header---------------------------------------------*/
+
+.Bar {
+	background-color: #fae205;
+	height: 13px;
+}
+
+#siteContainer {
+	margin: 0 auto;
+	width: 1300px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #312d2e;
+}
+
+#mainHeader {
+	margin-top: 25px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+	border-bottom: solid 1px #C37628;
+}
+
+#logo {
+	padding-top: 20px;
+	padding-left: 20px;
+	width: 170px;
+	background-color: #000;
+}
+
+#mainNav {
+	margin-left: 300px;
+	padding-top: 15px;
+	width: 900px;
+	position: relative;
+	/*background-color: #bf1700;*/
+}
+
+
+.navtext {
+	
+    text-align:center;
+    vertical-align:top;
+    display:inline-block;
+    padding: 8px; 
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: Oswald, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+/*Header End*/
+
+
+
+/*---------------------------------------------Main Body Page 1---------------------------------------------*/
+
+#banner {
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+	border-bottom: solid 1px #C37628;
+}
+
+
+
+#bannerText {
+	color: #fff;
+	width: 1300px;
+    line-height: 250px;
+    background: #000;
+    text-align: center;
+    margin: 0;
+}
+
+
+#title {
+	padding-top: 70px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Oswald, Helvetica, sans-serif;
+	color: #e8e8ee;
+}
+
+#text {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Sawarabi Mincho, Helvetica, sans-serif;
+	color: #e8e8ee;
+}
+
+/*Main Body End*/
+
+
+/*---------------------------------------------Footer---------------------------------------------*/
+
+#footer {
+	margin-top: 20px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+}
+
+#footerNav {
+	margin-left: 385px;
+	width: 520px;
+	/*background-color: #bf1700;*/
+}
+
+.navtextFooter {
+	
+    text-align:center;
+    vertical-align:top;
+    display:inline-block;
+    padding: 5px; 
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Oswald, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/*Footer End*/
+
+
+/*---------------------------------------------Shop Page---------------------------------------------*/
+
+#products {
+	margin-top: 40px;
+	padding-left: 60px;
+	padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.productImg {
+	width: 530px;
+	background-color: #000;
+}
+
+.productImg p {
+	line-height: 530px;
+	text-align: center;
+	color: #fff;
+}
+
+
+#shopText {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	text-align: center;
+	font-size: 45px;
+	font-family: Oswald, Helvetica, sans-serif;
+	padding-left: 120px;
+	padding-right: 145px;
+	
+}
+
+#line {
+	border-bottom: solid 1px #c37628;
+	padding: 30px;
+}
+
+/*Shop End*/
+
+
